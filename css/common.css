@@ -1,0 +1,84 @@
+body {
+  font-family: "Pretendard Variable", sans-serif;
+  /* 띄어쓰기를 기준으로 단어를 인식. 화면이 좁아졌을 때 줄바꿈 가독성을 높이기 위함. */
+  word-break: keep-all;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+img {
+  /* 최초에 img태그는 글자요소를 보완하는 개념으로 inline으로 개발이 되었지만,
+  오늘날에는 레이아웃을 잡는 상자요소로 많이 사용. html과 css는 국제 표준 기술이다보니 함부로 바뀔 수가 없음. */
+  display: block;
+}
+.page-title {
+  font-size: 50px;
+  font-weight: 800;
+  color: #13B491;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.page-subtitle {
+  width: 240px;
+  height: 50px;
+  border: 5px solid #FFA32D;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: #FFA32D;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.btn {
+  max-width: 500px;
+  height: 100px;
+  display: flex;
+  /* 수평정렬 */
+  justify-content: center; 
+  /* 수직정렬 */
+  align-items: center;
+  font-size: 50px;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+  transition: 0.1s;
+}
+.btn-orange {
+  background-color: #FFA32D;
+  /* box-shadow: x축거리, y축거리, 흐림효과정도, 색상; */
+  box-shadow: 0 14px 0 #E66000;
+  color: #fff;
+}
+.btn-orange:active {
+  box-shadow: 0 4px 0 #E66000;
+  transform: translateY(10px);
+}
+.btn-green {
+  background-color: #32BFA1;
+  box-shadow: 0 14px 0 #299A82;
+  color: #fff;
+}
+.btn-green:active {
+  box-shadow: 0 4px 0 #299A82;
+  transform: translateY(10px);
+}
+.btn-gray {
+  background-color: #f2f4f6;
+  box-shadow: 0 14px 0 #dfe1e2;
+  color: #444;
+} 
+.btn-gray:active {
+  box-shadow: 0 4px 0 #dfe1e2;
+  transform: translateY(10px);
+} 
+.btn-small {
+  max-width: 350px;
+  height: 70px;
+  font-size: 26px;
+  margin-bottom: 30px;
+}
