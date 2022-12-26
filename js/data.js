@@ -96,7 +96,7 @@ export const results = [
   },
   {
     title: "프로직진러!<br>진행력 갑",
-    character: "/images/result_character2.png",
+    character: "./images/result_character2.png",
     results: [
       "나는야 회사 사람들 멘탈 지킴이!<br>언제나 토닥토닥 으샤으샤 응원하며 다니는 파워 인싸!",
       "여러 사람과 협업이 필요한 직무에 찰떡!",
@@ -109,7 +109,7 @@ export const results = [
   },
   {
     title: "우리 무기는<br>상상력!",
-    character: "/images/result_character3.png",
+    character: "./images/result_character3.png",
     results: [
       "이것저것 관심이 많은 편이에요.<br>모든 게 궁금해요!",
       "섬세함이 장점으로<br>업무를 센스 있게 처리한다는 말을 자주 들어요.",
