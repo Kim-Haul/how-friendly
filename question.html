@@ -15,7 +15,9 @@
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/questions.css">
     <!-- js 파일 연결 -->
-    <script defer src="./js/questions.js"></script>
+    <!-- type='module', 즉 모듈의 경우 로컬에서는 동작하지 않고 HTTP 또는 HTTPS 프로토콜을 통해서만 동작.
+    로컬에서 file:// 프로토콜을 통해 웹을 열면 import, export 지시자가 동작하지 않음. 따라서 이를 확인하려면 live-server와 같은 extension의 도움이 필요. -->
+    <script type="module" defer src="./js/questions.js"></script>
   </head>
   <body>
    <div class="progress">
@@ -24,8 +26,8 @@
    <div class="question-box">
     <div class="number"></div>
     <div class="question"></div>
-    <div class="btn btn-gray choice chocie1"></div>
-    <div class="btn btn-gray choice chocie2"></div>
+    <div class="btn btn-gray choice choice1"></div>
+    <div class="btn btn-gray choice choice2"></div>
    </div>
   </body>
 </html>
