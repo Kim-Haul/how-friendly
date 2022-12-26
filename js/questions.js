@@ -31,7 +31,7 @@ function nextQuestion(choiceNumber) {
 }
 
 function showResultPage() {
-  location.href = "/result.html?mbti=" + mbti; // 쿼리 스트링
+  location.href = "./results.html?mbti=" + mbti; // 쿼리 스트링
 }
 
 choice1El.addEventListener("click", function () {
