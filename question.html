@@ -4,30 +4,52 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="내숨캐" />
+    <meta property="og:title" content="내 안에 숨어있는 직업캐 찾기!" />
+    <meta property="og:description" content="누구나 찰떡인 직업이 있어요! 내 안에 숨어있는 직업캐를 찾아보세요!" />
+    <meta property="og:image" content="/images/thumbnail.jpg" />
+    <meta property="og:url" content="https://prismatic-monstera-4c9d6a.netlify.app/" />
+
+    <!-- Twitter Cards -->
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:site" content="내숨캐" />
+    <meta property="twitter:title" content="내 안에 숨어있는 직업캐 찾기!" />
+    <meta property="twitter:description" content="누구나 찰떡인 직업이 있어요! 내 안에 숨어있는 직업캐를 찾아보세요!" />
+    <meta property="twitter:image" content="/images/thumbnail.jpg" />
+    <meta property="twitter:url" content="https://prismatic-monstera-4c9d6a.netlify.app/" />
+
     <title>11</title>
     <!-- 파비콘 설정 -->
-    <link rel="icon" href="favicon.png">
+    <link rel="icon" href="favicon.png" />
     <!-- 각 브라우저의 기본 스타일(css) 초기화 -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
     <!-- Pretendard 폰트 설정 -->
-    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable-dynamic-subset.css" />
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable-dynamic-subset.css"
+    />
     <!-- css 파일 연결 -->
-    <link rel="stylesheet" href="./css/common.css">
-    <link rel="stylesheet" href="./css/questions.css">
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/questions.css" />
     <!-- js 파일 연결 -->
     <!-- type='module', 즉 모듈의 경우 로컬에서는 동작하지 않고 HTTP 또는 HTTPS 프로토콜을 통해서만 동작.
     로컬에서 file:// 프로토콜을 통해 웹을 열면 import, export 지시자가 동작하지 않음. 따라서 이를 확인하려면 live-server와 같은 extension의 도움이 필요. -->
     <script type="module" defer src="./js/questions.js"></script>
   </head>
   <body>
-   <div class="progress">
-    <div class="value"></div>
-   </div>
-   <div class="question-box">
-    <div class="number"></div>
-    <div class="question"></div>
-    <div class="btn btn-gray choice choice1"></div>
-    <div class="btn btn-gray choice choice2"></div>
-   </div>
+    <div class="progress">
+      <div class="value"></div>
+    </div>
+    <div class="question-box">
+      <div class="number"></div>
+      <div class="question"></div>
+      <div class="btn btn-gray choice choice1"></div>
+      <div class="btn btn-gray choice choice2"></div>
+    </div>
   </body>
 </html>
